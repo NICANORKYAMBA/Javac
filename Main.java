@@ -4,6 +4,6 @@ public class Main {
 		System.out.println("I am learning Java");
 		System.out.println("I love Java");
 		System.out.println("It is awesome and enjoyable");
-		System.out.println("Bye!");
+		System.out.println("Thank you for your time");
 	}
 }
