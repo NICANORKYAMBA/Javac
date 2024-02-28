@@ -1,8 +1,6 @@
 /*
 Custom  Wrapper Classes in Java
 */
-import java.io.*;
-
 class Maximum {
     private int maxi = 0;
     private int size = 0;
@@ -10,7 +8,7 @@ class Maximum {
     public void insert(int x) {
         this.size++;
 
-        if (x <= this. maxi)
+        if (x <= this.maxi)
             return;
         this.maxi = x;
     }

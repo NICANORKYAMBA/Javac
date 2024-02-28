@@ -1,5 +1,3 @@
-import java.io.*;
-
 class BitwiseOperator {
     public static void main(String[] args) {
         int d = 0b1010;
