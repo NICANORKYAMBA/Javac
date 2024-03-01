@@ -1,0 +1,1 @@
+This is an example file to study use of BufferedReader in java to get user input
