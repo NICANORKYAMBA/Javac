@@ -1,7 +1,7 @@
 class SampleSwitch {
 
 	public static void main(String[] args) {
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 11; i++) {
 			switch(i) {
 				case 0:
 					System.out.println("i is 0");
