@@ -23,6 +23,7 @@ class B extends A {
 
 	// Display k - this overrides show() in A
 	void show() {
+		super.show(); // This calls A's show()
 		System.out.println("k: " + k);
 	}
 }
