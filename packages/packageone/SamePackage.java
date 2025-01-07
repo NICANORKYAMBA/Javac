@@ -1,6 +1,6 @@
 package packageone;
 
-public class SamePackage {
+class SamePackage {
     SamePackage() {
         Protection p = new Protection();
         System.out.println("SamePackage constructor");

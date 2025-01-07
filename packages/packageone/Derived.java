@@ -1,7 +1,7 @@
 package packageone;
 
-public class Derived extends Protection {
-    public Derived() {
+class Derived extends Protection {
+    Derived() {
         System.out.println("Derived constructor");
         System.out.println("n = " + n); // Accessible (default access within the same package)
         // System.out.println("n_pri = " + n_pri); // Not accessible (private access)

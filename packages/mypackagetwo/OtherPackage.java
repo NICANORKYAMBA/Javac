@@ -1,7 +1,7 @@
 package mypackagetwo;
 
-public class OtherPackage {
-    public OtherPackage() {
+class OtherPackage {
+    OtherPackage() {
         packageone.Protection p = new packageone.Protection();
         System.out.println("OtherPackage constructor");
         // System.out.println("n = " + p.n); // Not accessible (default access). Only accessible within the same package
