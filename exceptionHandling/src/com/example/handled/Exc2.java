@@ -9,6 +9,8 @@ public class Exc2 {
             System.out.println("Result: " + c);
         } catch (ArithmeticException e) {
             System.out.println("An arithmetic exception occurred: " + e);
+        } finally {
+            System.out.println("Finally block executed");
         }
     }
 }
